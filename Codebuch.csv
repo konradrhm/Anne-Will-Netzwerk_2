@@ -1,0 +1,29 @@
+CODEBUCH,
+Wert,Kommentar
+edgelist,Grundregel: Die Edgelist darf pro Spalte immer nur einen Wert enthalten. Bis auf die ID idealerweise numerisch codiert (als Zahl).
+from,ID des Knoten Mitglied
+to ,ID des Knoten Mitgliedschaft
+relationship,"Art der Mitgliedschaft: 1 - Teilnahme Talkshow, 2 - Mitglied derselben Partei"
+nodelist,
+id,ID aus der Edgelist
+name,Voller Name des Gastes
+party,Parteizugehörigkeit
+sector,"Sektor, wie Militär, Politik, Journalismus"
+type,"typ des Akteurs, also Organisation / Folge oder Akteur"
+,
+NA,"definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus.."
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+https://github.com/hdm-crpr/226305/tree/master/data/crpr2,
+Vergeben Sie stets eindeutige Spaltenbeschriftungen. Am besten immer nur ein Begriff ohne Sonderzeichen etc.,
